@@ -1,0 +1,222 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test_MIPS32SOC"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/build"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/build/verilog-build"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/opt/verilator/share/verilator/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/opt/verilator/share/verilator/include/vltstd"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/test-cases/../../cpp"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"id" : "test_MIPS32SOC::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_MIPS32SOC",
+	"nameOnDisk" : "test_MIPS32SOC",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/opt/verilator/share/verilator/include/verilated.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/build/verilog-build/VMIPS32SOC__Syms.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/build/verilog-build/VMIPS32SOC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/build/verilog-build/VMIPS32SOC_MIPS32SOC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/build/verilog-build/VMIPS32SOC_AsyncROM.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/build/verilog-build/VMIPS32SOC_RegisterFile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/build/verilog-build/VMIPS32SOC_RAMDualPort.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test_MIPS32SOC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/build/MIPS32SOC.v",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/home/ideras/classes/Computer_Organization/Project-MIPS32SOC/P1_2020/MIPS32SOC_Impl/Templates/MIPS32SOC-Part3/verilog/MIPS32SOC.v",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
